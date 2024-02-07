@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 607px;
+    height: auto;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background: linear-gradient(to bottom, #f4f8fb, #e0e4e8);
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    color: #5A4A3C;
+}
+
+.app--search{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.app--search input{
+    padding: 12px 25px;
+    width: 360px;
+    height: 75px;
+    background: #D8DEEC;
+    border: none;
+    outline: none;
+    flex: 1;
+    border-radius: 40px;
+    color: #777777;
+    font-size: 1.25rem;
+    font-weight: 500;
+    box-shadow: 0 0 8px 2px #007bff;
+}
+
+.app--icon{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.app--icon img{
+    height: 30px;
+}
+
+.app--content img{
+    margin-top: 25px;
+    width: 200px;
+}
+
+.app--content h1{
+    font-size: 4.375rem;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.app--content h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.app--details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.app--details .col{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.info  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-indent: 50%;
+    margin-left: 10px;
+    font-size: 1.25rem;
+}
+
+.error{
+    color: #D23226;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+      height: auto; /* Adjust height as needed for smaller screens */
+      margin-top: 30px; /* Reduce margins for smaller screens */
+      margin-bottom: 30px;
+    }
+  
+    .app {
+      padding: 15px
+    }
+}
